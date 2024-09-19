@@ -36,4 +36,4 @@ data <-
 
 
 #### Write_csv
-write_csv(data, file = "data/raw_data/simulated.csv")
+write_csv(data, file = "~/Desktop/Marriage Licence Statistics Data.csv")
