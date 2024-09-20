@@ -10,7 +10,7 @@
 library(tidyverse)
 
 #### Clean data ####
-raw_data <- read_csv("data/raw_data/raw_data.csv")
+raw_data <- read_csv("~/Desktop/Marriage Licence Statistics Data.csv")
 
 cleaned_data <-
   raw_data |>
@@ -22,4 +22,4 @@ cleaned_data <-
          )
   
 #### Save data ####
-write_csv(cleaned_data, "data/analysis_data/analysis_data.csv")
+write_csv(cleaned_data, "~/Desktop/ireneliu-ex3-main/data/analysis_data/analysis_data.csv")
