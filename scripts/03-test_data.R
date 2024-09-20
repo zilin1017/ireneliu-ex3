@@ -13,7 +13,7 @@ library(tidyverse)
 
 
 #### Test data ####
-data <- read_csv("data/raw_data/simulated.csv")
+data <- read_csv("~/Desktop/ireneliu-ex3-main/data/analysis_data/analysis_data.csv")
 
 # Test for negative numbers
 data$number_of_marriage |> min() <= 0
